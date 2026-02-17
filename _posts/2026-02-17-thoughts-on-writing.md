@@ -2,6 +2,7 @@
 layout: post
 title: "Thoughts on Writing"
 date: 2026-02-17
+tags: [news]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
