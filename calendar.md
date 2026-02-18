@@ -6,12 +6,38 @@ permalink: /calendar/
 
 ## Upcoming Performances
 
-- **March 15, 2026** — Spring Recital — Vienna
-- **April 22, 2026** — Chamber Music Festival — Salzburg
-- **June 8, 2026** — Summer Concert Series — Zagreb
+March 15, 2026<br>
+**Spring Recital**<br>
+Vienna
+
+---
+
+April 22, 2026<br>
+**Chamber Music Festival**<br>
+Salzburg
+
+---
+
+June 8, 2026<br>
+**Summer Concert Series**<br>
+Zagreb
+
+---
 
 ## Past Performances
 
-- **December 10, 2025** — Winter Gala — Munich
-- **October 5, 2025** — Autumn Serenade — Ljubljana
-- **July 20, 2025** — Open-Air Concert — Dubrovnik
+December 10, 2025<br>
+**Winter Gala**<br>
+Munich
+
+---
+
+October 5, 2025<br>
+**Autumn Serenade**<br>
+Ljubljana
+
+---
+
+July 20, 2025<br>
+**Open-Air Concert**<br>
+Dubrovnik
