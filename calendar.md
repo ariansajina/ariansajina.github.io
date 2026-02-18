@@ -4,7 +4,7 @@ title: Calendar
 permalink: /calendar/
 ---
 
-## Upcoming Performances
+## upcoming
 
 March 15, 2026<br>
 **Spring Recital**<br>
@@ -24,7 +24,7 @@ Zagreb
 
 ---
 
-## Past Performances
+## past
 
 December 10, 2025<br>
 **Winter Gala**<br>
