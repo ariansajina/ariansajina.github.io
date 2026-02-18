@@ -8,6 +8,10 @@ plugins:
   - jekyll-seo-tag
 
 permalink: pretty
+
+header_pages:
+  - about.md
+  - calendar.md
 show_excerpts: true
 
 exclude:
