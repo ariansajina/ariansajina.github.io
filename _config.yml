@@ -11,6 +11,7 @@ permalink: pretty
 
 header_pages:
   - about.md
+  - now.md
   - calendar.md
 show_excerpts: true
 
