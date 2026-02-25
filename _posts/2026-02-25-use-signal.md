@@ -41,7 +41,7 @@ Happy messaging.
 
 _I initially circulated a version of this text to my friends some years ago. Some convertees, eventually growing tired themselves of having the same conversation again, grabbed it and circulated it further. With that impulse, I felt emboldened to make the text available here._
 
-_Since then, my little article has unfortunately both aged very well (collective privacy is as important as ever and yelling at people to use Signal is still oxygen well spent), and went completely out of touch (to labour the whole point of Meta having all that metadata only to raise concern that they might leverage some decades-old algorithms, and not what Cambridge Analytica on steroids could result from giving AI agents access to that dataset, might make you think I've spent the last five years living in the hills with my cousin and his hogs). So I'd float a few updates._
+_Since then, my little article has unfortunately both aged very well (collective privacy is as important as ever and yelling at people to use Signal is still oxygen well spent), and went completely out of touch (to labour the whole point of Meta having all that metadata only to raise concern that they might leverage some decades-old algorithms, and not what Cambridge Analytica on steroids might emerge from giving AI agents access to that data, might make you think I've spent the last five years living in the hills with my cousin and his hogs). So I'd float a few updates._
 
 _Signal has grown and running it isn't cheap. It's about [$50 million a year](https://signal.org/blog/signal-is-expensive/) and their ambition is to make it sustained by small donations. So if you use it, consider [donating](https://signal.org/donate/)._
 
