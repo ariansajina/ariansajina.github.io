@@ -1,6 +1,8 @@
 title: Arian Šajina
 description: An experiment in personal digital space.
 author: ariansajina.write@proton.me
+url: "https://ariansajina.github.io"
+image: /images/about.jpg
 
 theme: minima
 plugins:
