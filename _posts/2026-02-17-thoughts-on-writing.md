@@ -2,6 +2,7 @@
 layout: post
 title: "Thoughts on Writing"
 date: 2026-02-17
+last_edited: 2026-02-25
 tags: [opinion]
 ---
 

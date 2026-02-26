@@ -13,6 +13,9 @@ layout: default
       {%- if page.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}</p>
+    {%- if page.last_edited -%}
+    <p class="post-meta"><em>Last edited: {{ page.last_edited | date: date_format }}</em></p>
+    {%- endif -%}
     {%- if page.tags.size > 0 -%}
     <div class="post-tags">
       {%- for tag in page.tags -%}
