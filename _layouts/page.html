@@ -1,0 +1,53 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <div class="subscribe-bar">
+    <button class="subscribe-icon-btn" id="newsletter-toggle" aria-label="Subscribe by email" title="Subscribe by email">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+    </button>
+    <a class="subscribe-icon-btn" href="{{ "/feed.xml" | relative_url }}" aria-label="Subscribe via RSS" title="Subscribe via RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>
+    </a>
+  </div>
+
+  <div class="newsletter-subscribe" id="newsletter-form" hidden>
+    <form action="https://buttondown.com/api/emails/embed-subscribe/ariansajina" method="post" class="embeddable-buttondown-form" referrerpolicy="unsafe-url">
+      <label for="bd-email">Subscribe to new posts by email</label>
+      <div class="newsletter-row">
+        <input type="email" name="email" id="bd-email" placeholder="you@example.com" />
+        <input type="submit" value="Subscribe" />
+      </div>
+      <p class="newsletter-powered"><a href="https://buttondown.com/refer/ariansajina" target="_blank">Powered by Buttondown.</a></p>
+    </form>
+  </div>
+
+</article>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var newsletterToggle = document.getElementById("newsletter-toggle");
+  var newsletterForm = document.getElementById("newsletter-form");
+  if (newsletterToggle && newsletterForm) {
+    newsletterToggle.addEventListener("click", function () {
+      var hidden = newsletterForm.hasAttribute("hidden");
+      if (hidden) {
+        newsletterForm.removeAttribute("hidden");
+        newsletterToggle.classList.add("active");
+      } else {
+        newsletterForm.setAttribute("hidden", "");
+        newsletterToggle.classList.remove("active");
+      }
+    });
+  }
+});
+</script>
